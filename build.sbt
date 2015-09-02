@@ -2,7 +2,15 @@ name:="spark-tutorial"
 
 version:="1.0"
 
-scalaVersion:="2.11.4"
+scalaVersion:="2.11.6"
 
-libraryDependencies += "org.apache.spark" %% "spark-core" % "1.2.0"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "1.4.1"
+
+libraryDependencies += "org.apache.spark" %% "spark-streaming" % "1.4.1"
+
+libraryDependencies += "org.apache.spark" %% "spark-streaming-twitter" % "1.4.1"
+
+libraryDependencies += "org.apache.spark" %% "spark-graphx" % "1.4.1"
+
+libraryDependencies += "org.apache.spark" %% "spark-mllib" % "1.4.1"
 
