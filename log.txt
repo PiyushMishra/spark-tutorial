@@ -1,0 +1,6 @@
+error:"its 1st error"
+hello world
+error: "its 2nd error"
+hello world2
+error: its 3rd error
+warning:"first"
